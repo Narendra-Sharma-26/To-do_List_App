@@ -1,0 +1,71 @@
+.container {
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 26%;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.taskbox {
+    display: inline-block;
+    background-color: pink;
+    border-radius: 7px;
+    font-size: 25px;
+    padding: 5px;
+    margin: 20px;
+    width: 50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-break:break-all ;
+}
+
+.butn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 65px;
+    margin: 5px;
+}
+
+.butn:hover, .RemoveAllButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.RemoveAllButton {
+    background-color: red;
+    color: black;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    
+
+}
+
+.addButton {
+    font-size: 25px;
+}
+
+.editBox {
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+.description_para {
+    font-size: 0.75em;
+    font-weight: lighter;
+    color: rgb(22, 188, 235);
+    text-transform: capitalize;
+}

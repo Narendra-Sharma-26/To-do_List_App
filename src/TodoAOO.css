@@ -1,0 +1,135 @@
+body {
+    background: #DCF2F1;
+    text-align: center;
+}
+
+/* .most-outer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.input-task-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+
+.input-task-description input,
+.edit-area input {
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+}
+
+.all-tasks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.taskbox {
+    /* background-color: lightgrey; */
+    background: #7FC7D9;
+    margin: 10px 10px;
+    width: 200px;
+    /* height: auto; */
+    height: 150px;
+    padding: 7px;
+    border-radius: 15px;
+    word-break: unset;
+}
+
+.task-title {
+    white-space: initial;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #0F1035;
+    width: 180px;
+    height: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.task-description {
+    margin: 0px 0px;
+    color: #365486;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  .delete-all-butn{
+    margin: 10px;
+  }
+
+  .edit-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.edit-n-delete-btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.EnDButn{
+    cursor: pointer;
+}
+
+.addnupdate {
+    width: 60px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
+.addbtn:hover,
+.updatebtn:hover {
+    background: #7FC7D9;
+    color: black;
+    cursor: pointer;
+}
+
+.delete-all-butn button{
+    background-color: red;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
